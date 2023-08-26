@@ -1,0 +1,65 @@
+*{
+
+    font-family: montserrat;
+    
+}
+body{
+
+    background: #f1fbff;
+
+}
+.carousel-item img{
+
+    height:100vh; 
+    /* view height */
+
+}
+.carousel-item .carousel-caption{
+
+    bottom:180px;
+    z-index: 2;
+
+}
+.carousel-caption h5{
+
+    font-size: 45px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+
+}
+.carousel-caption p{
+
+    width:60%;
+    margin: 10px auto;
+
+
+
+}
+.carousel-inner::before{
+    content:'';
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    z-index:1;
+    background: rgba(0, 0, 0, 0.7);
+}
+.navbar .navbar-brand{
+
+    font-size: 25px;
+    letter-spacing: 4px;
+    font-weight: 700px;
+    text-transform: uppercase;
+}
+.navbar-nav .nav-item a{
+
+    color: black;
+    text-transform: uppercase;
+    font-weight: 700px;
+    font-size: 18px;
+}
+.section-padding{
+
+    padding:100px 0px;
+}

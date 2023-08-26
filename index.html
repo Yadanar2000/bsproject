@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homework</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <style>
+
+      body{
+        background: black;
+      }
+
+      .lic:hover{
+          
+        color:white;
+        background-color: orange;
+      }
+
+      h1,h3{
+        color:white;
+      }
+      .btng{
+
+       
+        background-color: transparent;
+        color: white;
+        padding-left: 82px;
+        padding-right: 74px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-size: 18px;
+        cursor: pointer;
+        text-decoration: none;
+        max-width:inherit;
+      }
+      
+      .wnn{
+        border-color: #ff9800;
+        color: white;
+        border-left: 2px solid orange;
+        margin-right: 4px;
+      }
+
+      .wnn:hover{
+       color:white;
+       background-color: rgba(245, 245,245, 0.4);
+       border-bottom: 5px solid orange;
+       border-left: none;
+      
+      }
+    </style>
+  
+</head>
+<body>
+
+    <!-- NavBar -->
+    
+    <div class="collapse" id="navbarToggleExternalContent">
+
+        <div class="bg-dark p-4">
+            <a class="navbar-brand" href="#">
+                <img src="img/logo.svg" alt="" width="60" height="48">
+              </a>
+              <br><br>
+                <h3><pre><span class="text-muted">Movies</span>                          <span class="text-muted">TV Shows</span>                         <span class="text-muted">Watch</span></pre></h3>
+              <p><pre><span class="text-muted">Release Calendar</span>                                       <span class="text-muted">What's on TV & Streaming</span>                                 <span class="text-muted">What to Watch</span></pre></p>
+              <p><pre><span class="text-muted">Top 250 Movies</span>                                         <span class="text-muted">Top 250 TV Shows</span>                                        <span class="text-muted"> Latest Trailers</span></pre></p>
+              <p><pre><span class="text-muted">Most Popular Movies</span>                                    <span class="text-muted">Most Popular TV Shows</span>                                    <span class="text-muted">IMDb Picks</span></pre></p>
+              <p><pre><span class="text-muted">Top Box Office</span>                                         <span class="text-muted">Genres</span>                                                   <span class="text-muted">IMDb Originals</span></pre></p>
+              <p><pre><span class="text-muted">Movie News</span>                                             <span class="text-muted">TV News</span>                                                  <span class="text-muted">IMDb Podcasts</span></pre></p>
+        </div>
+      </div>
+
+
+      <nav class="navbar navbar-dark bg-dark">
+
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            <a class="navbar-brand" href="#">
+                <img src="img/logo.svg" alt="" width="60" height="48">
+              </a>
+
+          </button>
+
+          
+         <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-warning" type="submit">Search</button>
+        </form>
+
+        </div>
+
+      </nav>
+
+    <!-- NavBar -->
+
+    <!-- body -->
+
+        <!-- slide -->
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="img/s2.jpg" class="d-block w-100" alt="..." height="550">
+              </div>
+              <div class="carousel-item">
+                <img src="img/s4.webp" class="d-block w-100" alt="..." height="550">
+              </div>
+              <div class="carousel-item">
+                <img src="img/s3.jpg" class="d-block w-100" alt="..." height="550">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+      
+        <!-- slide -->
+
+        <!-- list -->
+
+        <br>
+
+        <h3 style="margin-left: 50px;">Most Popular <span class="badge bg-warning">New</span></h3>
+        
+        <br>
+
+       <ol class="list-group list-group-numbered">
+    
+        <li class="list-group-item d-flex justify-content-between align-items-start">
+            <div class="ms-2 me-auto">
+              <div class="fw-bold">Barbie</div>
+              <br>
+              <div class="card mb-3" style="max-width: 1040px;">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img src="img/a.jpg" class="img-fluid rounded-start" alt="..." width="220" height="220">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+        
+                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <span class="badge bg-primary rounded-pill">7.0</span>
+          </li>
+
+   
+    <li class="list-group-item d-flex justify-content-between align-items-start">
+        <div class="ms-2 me-auto">
+          <div class="fw-bold">The Supermario Bros</div>
+          <br>
+          <div class="card mb-3" style="max-width: 1040px;">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="img/b.jpg" class="img-fluid rounded-start" alt="..." width="220" height="220">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+    
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <span class="badge bg-primary rounded-pill">7.0</span>
+      </li>
+
+      <li class="list-group-item d-flex justify-content-between align-items-start">
+        <div class="ms-2 me-auto">
+          <div class="fw-bold">The Little Mermaid</div>
+          <br>
+          <div class="card mb-3" style="max-width: 1040px;">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="img/c.jpg" class="img-fluid rounded-start" alt="..." width="220" height="220">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+    
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <span class="badge bg-primary rounded-pill">7.0</span>
+      </li>
+
+
+<li class="list-group-item d-flex justify-content-between align-items-start">
+    <div class="ms-2 me-auto">
+      <div class="fw-bold">Elemental</div>
+      <br>
+      <div class="card mb-3" style="max-width: 1040px;">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="img/d.jpg" class="img-fluid rounded-start" alt="..." width="220" height="220">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <span class="badge bg-primary rounded-pill">7.0</span>
+  </li>
+   
+
+    <li class="list-group-item d-flex justify-content-between align-items-start">
+        <div class="ms-2 me-auto">
+          <div class="fw-bold">Oppenheimer</div>
+          <br>
+          <div class="card mb-3" style="max-width: 1040px;">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="img/e.jpg" class="img-fluid rounded-start" alt="..." width="220" height="220">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+    
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <span class="badge bg-primary rounded-pill">7.0</span>
+    </li>
+
+     
+      <li class="list-group-item d-flex justify-content-between align-items-start">
+        <div class="ms-2 me-auto">
+          <div class="fw-bold">Mission Impossible</div>
+          <br>
+          <div class="card mb-3" style="max-width: 1040px;">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="img/f.jpg" class="img-fluid rounded-start" alt="..." width="220" height="220">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+    
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <span class="badge bg-primary rounded-pill">7.0</span>
+      </li>
+
+      
+      <li class="list-group-item d-flex justify-content-between align-items-start">
+        <div class="ms-2 me-auto">
+          <div class="fw-bold">MEGAN</div>
+          <br>
+          <div class="card mb-3" style="max-width: 1040px;">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="img/g.jpg" class="img-fluid rounded-start" alt="..." width="220" height="220">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+    
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <span class="badge bg-primary rounded-pill">7.6</span>
+      </li>
+     
+
+      <li class="list-group-item d-flex justify-content-between align-items-start">
+        <div class="ms-2 me-auto">
+          <div class="fw-bold">John Wick Chapter 4</div>
+          <br>
+          <div class="card mb-3" style="max-width: 1040px;">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="img/h.jpg" class="img-fluid rounded-start" alt="..." width="220" height="220">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+    
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <span class="badge bg-primary rounded-pill">7.0</span>
+      </li>
+
+        </ol>
+  
+        <!-- list -->
+
+        <!--  buttons -->
+
+        <br>
+
+        <div class="container-fluid " style="margin:30px;">
+
+        <h1> Top Rated Movies By Genres </h1>
+
+        <br>
+
+            <button type="button" class="btn btn-primary" style="margin-right: 30px; border-radius: 18px;">Actions</button>
+            <button type="button" class="btn btn-secondary" style="margin-right: 30px; border-radius: 18px;">Adventures</button>
+            <button type="button" class="btn btn-success" style="margin-right: 30px; border-radius: 18px;"> Animation</button>
+            <button type="button" class="btn btn-danger" style="margin-right: 30px; border-radius: 18px;">Comedy</button>
+            <button type="button" class="btn btn-warning" style="margin-right: 30px; border-radius: 18px;">Crime</button>
+            <button type="button" class="btn btn-info" style="margin-right: 30px; border-radius: 18px;">Documentary</button>
+            <br><br>
+            <button type="button" class="btn btn-warning" style="margin-right: 30px; border-radius: 18px;">Drama</button>
+            <button type="button" class="btn btn-success" style="margin-right: 30px; border-radius: 18px;">Sci-Fic</button>
+            <button type="button" class="btn btn-info" style="margin-right: 30px; border-radius: 18px;">Thriller</button>
+            <button type="button" class="btn btn-primary" style="margin-right: 30px; border-radius: 18px;">Romance</button>
+            <button type="button" class="btn btn-danger" style="margin-right: 30px; border-radius: 18px;">War</button>
+            <button type="button" class="btn btn-info" style="margin-right: 30px; border-radius: 18px;">Fantasy</button>
+            <br><br>
+            <button type="button" class="btn btn-danger" style="margin-right: 30px; border-radius: 18px;">Horror</button>
+            <button type="button" class="btn btn-primary" style="margin-right: 30px; border-radius: 18px;">Western</button>
+            <button type="button" class="btn btn-info" style="margin-right: 30px; border-radius: 18px;">Historical drama</button>
+            <button type="button" class="btn btn-success" style="margin-right: 30px; border-radius: 18px;">Disaster</button>
+           
+            <br><br>
+            <button type="button" class="btn btn-success" style="margin-right: 30px; border-radius: 18px;">Musical</button>
+            <button type="button" class="btn btn-dark" style="margin-right: 30px; border-radius: 18px;">Television</button>
+            <button type="button" class="btn btn-primary" style="margin-right: 30px; border-radius: 18px;">Teen</button>
+            <button type="button" class="btn btn-info" style="margin-right: 30px; border-radius: 18px;">Musical</button>
+           
+            <br><br>
+           
+
+
+
+        </div>
+
+        <!-- buttons -->
+
+        <!--  buttongroup -->
+
+        <div class="container" style="margin:35px;"> 
+
+        <h1> What to Watch - IMDb </h1>
+
+        <br><br>
+
+        <div class="btn-group btn-group-lg w-100">
+          <a href="page3.html" class="btng wnn ">WATCH GUIDE</a>
+          <a href="page2.html" class="btng wnn ">FAN FAVORITES</a>
+          <a href="page1.html" class="btng wnn ">TOP PICKS</a>
+          <a href="page4.html" class="btng wnn ">MOST POPULAR</a>
+          
+        </div>
+
+      </div>
+
+        <!--  buttongroup -->
+
+
+    <!-- body -->
+<br><br>
+
+  <!-- BOTTOM -->
+
+    <nav aria-label="Page navigation example" >
+      <ul class="pagination justify-content-center" >
+        <li class="page-item disabled"  >
+          <a class="page-link" style="border-color: #ff9800; color: black; font-size: 18px;" >Previous</a>
+        </li>
+        <li class="page-item"><a class="page-link" href="page3.html" style="border-color: #ff9800; color: black; font-size: 18px;">1</a></li>
+        <li class="page-item"><a class="page-link" href="page2.html" style="border-color: #ff9800; color: black; font-size: 18px;">2</a></li>
+        <li class="page-item"><a class="page-link" href="page1.html" style="border-color: #ff9800; color: black; font-size: 18px;">3</a></li>
+        <li class="page-item"><a class="page-link" href="page4.html" style="border-color: #ff9800; color: black; font-size: 18px;">4</a></li>
+        <li class="page-item">
+          <a class="page-link" href="page3.html" style="border-color: #ff9800; color: black; font-size: 18px;">Next</a>
+        </li>
+        <li class="page-item disabled">
+          <a class="page-link" href="index.html" style="border-color: #ff9800; color: black; font-size: 18px;">Home</a>
+        </li>
+      </ul>
+    </nav>
+
+  <!-- BOTTOM -->
+
+
+
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
